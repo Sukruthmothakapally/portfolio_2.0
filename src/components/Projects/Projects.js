@@ -174,7 +174,7 @@ function Projects() {
     style={{
       color: "#9b59b6", // Using the color you provided
       fontWeight: "bold",
-      fontSize: "24px", // Adjusting font size as per your requirement
+      fontSize: "24px", // Adjusting font size as per your requiremen
       textDecoration: "underline",
     }}
   >
