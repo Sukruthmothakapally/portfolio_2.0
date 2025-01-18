@@ -6,17 +6,19 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "Software Developer",
-          "Freelancer",
-          "MERN Stack Developer",
-          "Open Source Contributor",
+          "Software Engineer",
+          "AI Engineer",
+          "Backend & Full-Stack",
         ],
         autoStart: true,
         loop: true,
-        deleteSpeed: 50,
+        typeSpeed: 50, // Faster typing speed
+        deleteSpeed: 70, // Faster deleting speed
+        delay: 50, // Reduce delay before switching strings (in milliseconds)
       }}
     />
   );
 }
+
 
 export default Type;
