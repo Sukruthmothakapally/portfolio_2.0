@@ -48,36 +48,41 @@ function Home2() {
         </Col>
         </Row>
         <Row>
-          <Col md={12} className="home-about-social">
-            <h1>To know more about my work</h1>
-            <p>
-            Let's connect
-            </p>
-            <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="https://github.com/Sukruthmothakapally"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-  
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/sukruthkm/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-            </ul>
-          </Col>
-        </Row>
+  <Col md={12} className="home-about-social">
+    <h1>To know more about my work</h1>
+    <p>Let's connect</p>
+    <ul className="home-about-social-links">
+      <li className="social-icons">
+        <a
+          href="https://github.com/Sukruthmothakapally"
+          target="_blank"
+          rel="noreferrer"
+          className="icon-colour home-social-icons"
+        >
+          <AiFillGithub />
+        </a>
+      </li>
+
+      <li className="social-icons">
+        <a
+          href="https://www.linkedin.com/in/sukruthkm/"
+          target="_blank"
+          rel="noreferrer"
+          className="icon-colour home-social-icons"
+        >
+          <FaLinkedinIn />
+        </a>
+      </li>
+
+      {/* Plain text email */}
+      <li className="social-icons">
+        <span className="email-text">sukruth0402@gmail.com</span>
+      </li>
+    </ul>
+  </Col>
+</Row>
+
+
       </Container>
     </Container>
   );

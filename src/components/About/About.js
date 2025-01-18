@@ -98,7 +98,7 @@ function About() {
                   </em>
                   <ul className="role-description">
                     <li>
-                      Part of the founding engineering team, building
+                      Part of Startup's founding engineering team, building
                       microservices using Python, Node.js, and AWS.
                     </li>
                     <li>
