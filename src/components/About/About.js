@@ -98,16 +98,20 @@ function About() {
                   </em>
                   <ul className="role-description">
                     <li>
-                      Part of Startup's founding engineering team, building
+                      Part of Startup's founding engineering team, taking ownership of multiple
                       microservices using Python, Node.js, and AWS.
                     </li>
                     <li>
-                      Built React and TypeScript-powered UI, developed ‘AI
-                      Copilot’ with OpenAI and LangChain.
+                    Designed interactive UI with React, Next.js, and TypeScript, boosting platform performance by 40%.
                     </li>
                     <li>
-                      Integrated a RAG-based chatbot with FAISS and OpenAI
-                      embeddings.
+                   Engineered a multi-agent AI interface, 'AI Copilot' with OpenAI, LangChain, and scikit-learn, automating workflows and driving revenue.
+                    </li>
+                    <li>
+                    Integrated RAG-based chatbot with FAISS and OpenAI embeddings, enhancing customer engagement.
+                    </li>
+                    <li>
+                    Led migration to a microservices architecture with Docker, Terraform, and CI/CD pipelines.
                     </li>
                   </ul>
                 </li>
@@ -148,12 +152,16 @@ function About() {
                   </em>
                   <ul className="role-description">
                     <li>
-                      Focused on driver deployment and automated testing for
-                      Intel SSDs, improving system performance by 15%.
+                    Developed driver deployment solutions in C++ on Linux, improving performance by 15% through automation.
                     </li>
                     <li>
-                      Re-engineered workflows with CI/CD tools to cut update
-                      time by 30%.
+                    Built automated testing frameworks in Python for SSD firmware, enhancing reliability and reducing production issues.
+                    </li>
+                    <li>
+                    Optimized CI/CD pipelines with Jenkins and Git, cutting driver update time by 30% for 1M+ users. 
+                    </li>
+                    <li>
+                    Conducted root cause analysis using SQL, resolving key performance bottlenecks in driver workflows.  
                     </li>
                     <li>
                       <strong
@@ -164,7 +172,7 @@ function About() {
                       >
                         <span className="purple">Full-Stack Developer Intern:</span>
                       </strong>{" "}
-                      Developed a MERN-based employee skills analysis platform.
+                      Contributed to developing a MERN-based employee skills analysis platform, improving employee skill mapping and accessibility.
                     </li>
                   </ul>
                 </li>

@@ -48,6 +48,7 @@ import pic21 from "../../Assets/Projects/pic21.png";
 import pic12 from "../../Assets/Projects/pic12.png";
 import pic13 from "../../Assets/Projects/pic13.png"; 
 import pic11 from "../../Assets/Projects/pic11.png";
+import pic60 from "../../Assets/Projects/pic60.png";
 
 function Projects() {
   const [show, setShow] = useState(false);
@@ -349,7 +350,59 @@ function Projects() {
           </div>
         </div>
       ),
+    }, 
+    {
+      imgPath: pic60, // Title image for Project 2
+      title: (
+        <span style={{ color: '#9b59b6', fontWeight: 'bold', fontSize: '24px' }}>
+          Custom LLM & GPT Fine-Tuning with Multi-Agent AI
+        </span>
+      ),
+      description: (
+        <>
+          <strong>Tech Stack:</strong>
+          <ul>
+            <li><strong>Programming:</strong> Python</li>
+            <li><strong>Libraries:</strong> PyTorch, TensorFlow</li>
+            <li><strong>Concepts:</strong> LLM, RLHF, NLP, Deep Learning</li>
+          </ul>
+    
+          <div style={{ marginTop: "20px", textAlign: "center" }}>
+            <a
+              href="https://github.com/Sukruthmothakapally/LLM-course-projects-combined---Northeastern-University"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                color: "#9b59b6", // Using the same color
+                fontWeight: "bold",
+                fontSize: "24px", // Adjusting font size
+                textDecoration: "underline",
+              }}
+            >
+              GitHub
+            </a>
+          </div>
+        </>
+      ),
+      details: (
+        <div>
+          <h5 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "10px" }}>Project Overview</h5>
+          <p>
+            This project demonstrates the development and fine-tuning of a custom GPT-based Language Model, 
+            integrating advanced techniques such as multi-agent orchestration, reinforcement learning, and alignment tuning. 
+            The goal is to create a highly capable text generation system tailored for specific intents.
+          </p>
+    
+          <h5 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "10px" }}>App Details</h5>
+          <ul>
+            <li><strong>Model Development:</strong> Built a scalable GPT-based LLM with features like multi-head attention, positional encodings, and tokenization, ensuring robust text generation capabilities tailored for instruction-based tasks.</li>
+            <li><strong>Fine-Tuning Techniques:</strong> Applied LoRA for fine-tuning, using innovative techniques like instruction backtranslation and self-augmentation. This enabled alignment of the model's outputs with the intended user instructions.</li>
+            <li><strong>Advanced Optimizations:</strong> Implemented Deep Policy Optimization (DPO), Reinforcement Learning with Human Feedback (RLHF), and multi-agent AI orchestration. These approaches improved dialogue quality, response adherence, and overall performance.</li>
+          </ul>
+        </div>
+      ),
     },    
+      
     {
       imgPath: pic40, // Placeholder for the project card image
       title: (
