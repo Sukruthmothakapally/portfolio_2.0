@@ -25,6 +25,43 @@ function About() {
             </h1>
             <div className="about-content">
               <ul>
+                {/* AI Software Engineer */}  
+<li style={{ marginBottom: "30px" }}>  
+  <strong style={{ fontSize: "1.8em" }}>  
+    <a  
+      href="https://www.predictabio.com"  
+      target="_blank"  
+      rel="noopener noreferrer"  
+      style={{  
+        color: "inherit",  
+        textDecoration: "underline",  
+        zIndex: 1,  
+        position: "relative",  
+      }}  
+    >  
+      PredictaBio Innovations  
+    </a>  
+  </strong>  
+  <br />  
+  <span  
+    className="purple"  
+    style={{  
+      fontSize: "1.5em",  
+      fontWeight: "bold",  
+    }}  
+  >  
+    AI Software Engineer  
+  </span>  
+  <br />  
+  <em style={{ fontSize: "1.2em", fontWeight: "bold" }}>  
+    Feb 2025 – Present  
+  </em>  
+  <ul className="role-description">  
+    <li>  
+    Founding team lead, owning backend product development for a protein synthesis startup; Architecting multi-agent AI microservices, automated data pipelines, and graph + vector DBs for ML-driven predictive modeling and POCs.  
+    </li>  
+  </ul>  
+</li>  
                 {/* Graduate Teaching Assistant */}
                 <li style={{ marginBottom: "30px" }}>
                   <strong style={{ fontSize: "1.8em" }}>
