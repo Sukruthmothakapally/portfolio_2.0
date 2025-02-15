@@ -29,7 +29,7 @@ function About() {
 <li style={{ marginBottom: "30px" }}>  
   <strong style={{ fontSize: "1.8em" }}>  
     <a  
-      href="https://www.predictabio.com"  
+      href="https://predicta.bio/"  
       target="_blank"  
       rel="noopener noreferrer"  
       style={{  
