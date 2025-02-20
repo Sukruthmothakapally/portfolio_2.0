@@ -58,7 +58,7 @@ function About() {
   </em>  
   <ul className="role-description">  
     <li>  
-    Founding team lead, owning backend product development for a protein synthesis startup; Architecting multi-agent AI microservices, automated data pipelines, and graph + vector DBs for ML-driven predictive modeling and POCs.  
+    Founding engineer owning backend development of AI-driven MVP for synthetic biology startup; architecting 3 multi-agent microservices predicting protein interactions and Airflow pipelines automating biodiverse data integrations.  
     </li>  
   </ul>  
 </li>  
@@ -95,9 +95,7 @@ function About() {
                   </em>
                   <ul className="role-description">
                     <li>
-                      Designed and graded assignments for 40+ students in Data
-                      Structures and Algorithms, and Data Science, focusing on
-                      Python, Machine Learning, and Object-Oriented Programming.
+                    Designed and evaluated assignments for 40+ students in Data Structures & Algorithms and Data Science courses, covering Python and Java, Machine Learning, Agile methodologies, SDLC, and Object-Oriented Programming.
                     </li>
                   </ul>
                 </li>
@@ -134,22 +132,25 @@ function About() {
                     Jan 2024 – Aug 2024
                   </em>
                   <ul className="role-description">
+                  <li>
+                        Part of founding team, owned 4 core microservices for the startup’s MVP (Python/Node.js, AWS Lambda/DynamoDB/S3), accelerating time-to-market by a quarter.
+                    </li>
                     <li>
-                      Part of Startup's founding engineering team, taking ownership of multiple
-                      microservices using Python, Node.js, and AWS.
+                        Engineered a multi-agent ‘AI Copilot’ (OpenAI, scikit-learn, and LangChain), personalizing and automating email generation, intent classification, and campaign creation, directly driving 70% revenue growth.
+                    </li>
+                    <li>
+                        Developed RAG-based chatbot (OpenAI, FAISS) for real-time sales insights, cutting customer query resolution time by 35%.
+                    </li>
+                    <li>
+                    Led migration of monolithic backend to a microservices architecture.
+                    </li>
+                    <li>
+                        Designed schemas for 8 features and built Airflow DAGs to ETL 50K+ leads from 10+ sources for AI-driven personalization.
                     </li>
                     <li>
                     Designed interactive UI with React, Next.js, and TypeScript, boosting platform performance by 40%.
                     </li>
-                    <li>
-                   Engineered a multi-agent AI interface, 'AI Copilot' with OpenAI, LangChain, and scikit-learn, automating workflows and driving revenue.
-                    </li>
-                    <li>
-                    Integrated RAG-based chatbot with FAISS and OpenAI embeddings, enhancing customer engagement.
-                    </li>
-                    <li>
-                    Led migration to a microservices architecture with Docker, Terraform, and CI/CD pipelines.
-                    </li>
+                    
                   </ul>
                 </li>
 
@@ -188,15 +189,19 @@ function About() {
                     Feb 2020 – June 2022
                   </em>
                   <ul className="role-description">
-                    <li>
-                    Developed driver deployment solutions in C++ on Linux, improving performance by 15% through automation.
-                    </li>
-                    <li>
-                    Built automated testing frameworks in Python for SSD firmware, enhancing reliability and reducing production issues.
-                    </li>
-                    <li>
-                    Optimized CI/CD pipelines with Jenkins and Git, cutting driver update time by 30% for 1M+ users. 
-                    </li>
+                  <li>
+                    Automated Intel GPU/SSD driver deployments via C++ CLI tools and Ansible on Linux, configuring 10K+ enterprise systems.
+                </li>
+                <li>
+                    Built Python framework with 50+ test cases for SSD firmware validation, improving system throughput by 15%.
+                </li>
+                <li>
+                    Re-engineered driver updates using Python/Shell parallel scripting, slashing deployment time by 30% for 1M+ users.
+                </li>
+                <li>
+                    Optimized CI/CD pipelines (Jenkins/Git) with automated unit/integration tests, reducing driver build failures by 25%.
+                </li>
+
                     <li>
                     Conducted root cause analysis using SQL, resolving key performance bottlenecks in driver workflows.  
                     </li>
@@ -209,8 +214,11 @@ function About() {
                       >
                         <span className="purple">Full-Stack Developer Intern:</span>
                       </strong>{" "}
-                      Contributed to developing a MERN-based employee skills analysis platform, improving employee skill mapping and accessibility.
+                      Built 5+ APIs (Node.js/Express.js) enabling filtering of 1K+ workforce datasets for skill gap analysis, cutting latency by 40%.
                     </li>
+                    <li>
+                      Designed 2 React dashboards visualizing real-time skill metrics, adopted by 200+ HR users to optimize talent allocation.
+                  </li>
                   </ul>
                 </li>
 
@@ -246,12 +254,13 @@ function About() {
                     July 2018 – Aug 2018
                   </em>
                   <ul className="role-description">
-                    <li>
-                      Contributed to shipment tracking app by developing
-                      backend services using Python and Node.js, improving
-                      query performance by 30%.
+                  <li>
+                        Automated 500+ daily shipment status syncs via 30+ APIs (FedEx/DHL) using Python/Node.js, reducing manual tracking.
                     </li>
-                    <li>Deployed a Dockerized app on AWS.</li>
+                    <li>
+                        Optimized 15 DB queries and Dockerized app, cutting processing time by 30% with zero downtime on AWS ECS.
+                    </li>
+
                   </ul>
                 </li>
               </ul>
