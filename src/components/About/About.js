@@ -101,18 +101,23 @@ function About() {
                   <li>
                   As part of founding team, collaborated directly with CEO in a 0→1 initiative to design and develop 4 microservices for the MVP using FastAPI/Node.js/AWS Lambda/Kafka/Docker, accelerating time-to-market by a quarter.  
                     </li>
+                    <br />
                     <li>
                     Contributed to engineering a multi-agent AI system (RAG/LangChain/Selenium) for automating and personalizing email generation, lead acquisition, and campaign creation, driving 10+ customers and increasing sales conversions. 
                     </li>
+                    <br />
                     <li>
                     Developed an AI chatbot (RAG/Cache/FAISS/WebSocket) serving as a Customer Onboarding Assistant, delivering real-time sales insights and slashing setup time from hours to minutes. 
                     </li>
+                    <br />
                     <li>
                     led agile migration from monolith to microservices, integrating AWS services with CI/CD pipelines via GitHub Actions/Terraform, streamlining weekly release cycles. 
                     </li>
+                    <br />
                     <li>
                     Designed 8 database schemas for sales-marketing workflows and led development of a weekly Airflow DAG that automated ETL for 50k+ leads from 10+ sources using web scraping and data ingestion, driving targeted customer personalization. 
                     </li>
+                    <br />
                     <li>
                     Developed 2 dashboards using React/Next.js/TypeScript, implemented NextAuth.js with users RBAC, integrated Stripe, third-party APIs, and WebSocket alerts, improving security and user experience.
                     </li>
