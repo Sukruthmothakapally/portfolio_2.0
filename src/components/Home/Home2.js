@@ -23,21 +23,27 @@ function Home2() {
             <li>
               I'm an experienced software engineer with a Master's in <span className="purple"><em>Computer Software Engineering</em></span> from Northeastern University.
             </li>
+            <br />
             <li>
-              I've worked at 2 AI startups as part of the founding team, taking AI-driven <span className="purple"><em>SAAS</em></span> products from <span className="purple"><em>0→1</em></span> and helping drive revenue.
+              I've worked at 2 <span className="purple"><em>AI startups</em></span> as part of the founding team, taking AI-driven <span className="purple"><em>SAAS</em></span> products from <span className="purple"><em>0→1</em></span> and helping drive revenue.
             </li>
+            <br />
             <li>
-              I thrive in <span className="purple"><em>multi-hat responsibilities</em></span>, working directly with leadership, including the CEO - to turn ideas into solid <span className="purple"><em>MVPs</em></span>.
+              I thrive in <span className="purple"><em>multi-hat responsibilities</em></span>, working directly with leadership, including the <span className="purple"><em>CEO</em></span> - to turn ideas into solid <span className="purple"><em>MVPs</em></span>.
             </li>
+            <br />
             <li>
               My core strength is backend development with <span className="purple"><em>microservices</em></span>, using <span className="purple"><em>Python</em></span> and <span className="purple"><em>Java</em></span> frameworks.
             </li>
+            <br />
             <li>
              In the <span className="purple"><em>AI</em></span> space, I've built <span className="purple"><em>multi-agent systems</em></span>, designed <span className="purple"><em>RAG-based architectures</em></span>, fine-tuned <span className="purple"><em>LLMs</em></span>, worked on prompt engineering, and used frameworks like <span className="purple"><em>LangChain</em></span>, LangGraph, and Autogen. 
             </li>
+            <br />
             <li>
-              I've built scalable <span className="purple"><em>AWS & GCP native</em></span> full-stack apps, set up <span className="purple"><em>CI/CD pipelines</em></span>, and handled data engineering workflows to keep things running smoothly.
+              I've built scalable <span className="purple"><em>AWS & GCP native</em></span> full-stack apps, set up <span className="purple"><em>CI/CD pipelines</em></span>, and handled <span className="purple"><em>data engineering</em></span> workflows.
             </li>
+            <br />
             <li>
               For the frontend, I sometimes work with <span className="purple"><em>React</em></span>, <span className="purple"><em>JavaScript</em></span>, and <span className="purple"><em>TypeScript</em></span>. Not my main focus, but I can get things up and running when needed.
             </li>
