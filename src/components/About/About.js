@@ -58,10 +58,68 @@ function About() {
   </em>  
   <ul className="role-description">  
     <li>  
-    Founding engineer owning backend development of AI-driven MVP for synthetic biology startup; architecting 3 multi-agent microservices predicting protein interactions and Airflow pipelines automating biodiverse data integrations.  
+    Founding engineer owning end-to-end development of 3 microservices with multi-agent system for an AI-driven MVP.  
     </li>  
+    <li>  
+    Contributing to a data orchestration pipeline (Graph/Vector DB), streamlining Protein synthesis and predictive analytics.   
+    </li>
   </ul>  
 </li>  
+
+                {/* AI Software Engineer Intern */}
+                <li style={{ marginBottom: "30px" }}>
+                  <strong style={{ fontSize: "1.8em" }}>
+                    <a
+                      href="https://www.pipeiq.ai"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      style={{
+                        color: "inherit",
+                        textDecoration: "underline",
+                        zIndex: 1,  // Ensure link is on top
+                        position: "relative",  // Fix for z-index stacking
+                      }}
+                    >
+                      PipeIQ.ai
+                    </a>
+                  </strong>
+                  <br />
+                  <span
+                    className="purple"
+                    style={{
+                      fontSize: "1.5em",
+                      fontWeight: "bold",
+                    }}
+                  >
+                    AI Software Engineer
+                  </span>
+                  <br />
+                  <em style={{ fontSize: "1.2em", fontWeight: "bold" }}>
+                    Jan 2024 – Aug 2024
+                  </em>
+                  <ul className="role-description">
+                  <li>
+                  As part of founding team, collaborated directly with CEO in a 0→1 initiative to design and develop 4 microservices for the MVP using FastAPI/Node.js/AWS Lambda/Kafka/Docker, accelerating time-to-market by a quarter.  
+                    </li>
+                    <li>
+                    Contributed to engineering a multi-agent AI system (RAG/LangChain/Selenium) for automating and personalizing email generation, lead acquisition, and campaign creation, driving 10+ customers and increasing sales conversions. 
+                    </li>
+                    <li>
+                    Developed an AI chatbot (RAG/Cache/FAISS/WebSocket) serving as a Customer Onboarding Assistant, delivering real-time sales insights and slashing setup time from hours to minutes. 
+                    </li>
+                    <li>
+                    led agile migration from monolith to microservices, integrating AWS services with CI/CD pipelines via GitHub Actions/Terraform, streamlining weekly release cycles. 
+                    </li>
+                    <li>
+                    Designed 8 database schemas for sales-marketing workflows and led development of a weekly Airflow DAG that automated ETL for 50k+ leads from 10+ sources using web scraping and data ingestion, driving targeted customer personalization. 
+                    </li>
+                    <li>
+                    Developed 2 dashboards using React/Next.js/TypeScript, implemented NextAuth.js with users RBAC, integrated Stripe, third-party APIs, and WebSocket alerts, improving security and user experience.
+                    </li>
+                    
+                  </ul>
+                </li>
+
                 {/* Graduate Teaching Assistant */}
                 <li style={{ marginBottom: "30px" }}>
                   <strong style={{ fontSize: "1.8em" }}>
@@ -95,62 +153,8 @@ function About() {
                   </em>
                   <ul className="role-description">
                     <li>
-                    Designed and evaluated assignments for 40+ students in Data Structures & Algorithms and Data Science courses, covering Python and Java, Machine Learning, Agile methodologies, SDLC, and Object-Oriented Programming.
+                    Co-designed and evaluated assignments for 40+ students in Data Structures & Algorithms and Data Science courses, covering Python, Java, Machine Learning, Agile methodologies, SDLC, and Object-Oriented Programming.
                     </li>
-                  </ul>
-                </li>
-
-                {/* AI Software Engineer Intern */}
-                <li style={{ marginBottom: "30px" }}>
-                  <strong style={{ fontSize: "1.8em" }}>
-                    <a
-                      href="https://www.pipeiq.ai"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      style={{
-                        color: "inherit",
-                        textDecoration: "underline",
-                        zIndex: 1,  // Ensure link is on top
-                        position: "relative",  // Fix for z-index stacking
-                      }}
-                    >
-                      PipeIQ.ai
-                    </a>
-                  </strong>
-                  <br />
-                  <span
-                    className="purple"
-                    style={{
-                      fontSize: "1.5em",
-                      fontWeight: "bold",
-                    }}
-                  >
-                    AI Software Engineer Intern
-                  </span>
-                  <br />
-                  <em style={{ fontSize: "1.2em", fontWeight: "bold" }}>
-                    Jan 2024 – Aug 2024
-                  </em>
-                  <ul className="role-description">
-                  <li>
-                        Part of founding team, owned 4 core microservices for the startup’s MVP (Python/Node.js, AWS Lambda/DynamoDB/S3), accelerating time-to-market by a quarter.
-                    </li>
-                    <li>
-                        Engineered a multi-agent ‘AI Copilot’ (OpenAI, scikit-learn, and LangChain), personalizing and automating email generation, intent classification, and campaign creation, directly driving 70% revenue growth.
-                    </li>
-                    <li>
-                        Developed RAG-based chatbot (OpenAI, FAISS) for real-time sales insights, cutting customer query resolution time by 35%.
-                    </li>
-                    <li>
-                    Led migration of monolithic backend to a microservices architecture.
-                    </li>
-                    <li>
-                        Designed schemas for 8 features and built Airflow DAGs to ETL 50K+ leads from 10+ sources for AI-driven personalization.
-                    </li>
-                    <li>
-                    Designed interactive UI with React, Next.js, and TypeScript, boosting platform performance by 40%.
-                    </li>
-                    
                   </ul>
                 </li>
 
@@ -193,7 +197,7 @@ function About() {
                     Automated Intel GPU/SSD driver deployments via C++ CLI tools and Ansible on Linux, configuring 10K+ enterprise systems.
                 </li>
                 <li>
-                    Built Python framework with 50+ test cases for SSD firmware validation, improving system throughput by 15%.
+                    Wrote 50+ SSD firmware test cases and built a Python automation library, boosting test execution throughput by 15%. 
                 </li>
                 <li>
                     Re-engineered driver updates using Python/Shell parallel scripting, slashing deployment time by 30% for 1M+ users.
@@ -202,9 +206,7 @@ function About() {
                     Optimized CI/CD pipelines (Jenkins/Git) with automated unit/integration tests, reducing driver build failures by 25%.
                 </li>
 
-                    <li>
-                    Conducted root cause analysis using SQL, resolving key performance bottlenecks in driver workflows.  
-                    </li>
+                    
                     <li>
                       <strong
                         style={{
@@ -214,10 +216,10 @@ function About() {
                       >
                         <span className="purple">Full-Stack Developer Intern:</span>
                       </strong>{" "}
-                      Built 5+ APIs (Node.js/Express.js) enabling filtering of 1K+ workforce datasets for skill gap analysis, cutting latency by 40%.
+                      Developed 4 REST APIs (Express.js/MongoDB) using aggregation pipelines and indexing, enhancing latency by 10%.
                     </li>
                     <li>
-                      Designed 2 React dashboards visualizing real-time skill metrics, adopted by 200+ HR users to optimize talent allocation.
+                      Built real-time analytics dashboard (React/D3.js) with code-splitting and DOM optimization, reducing load time by 9%. 
                   </li>
                   </ul>
                 </li>
@@ -255,10 +257,10 @@ function About() {
                   </em>
                   <ul className="role-description">
                   <li>
-                        Automated 500+ daily shipment status syncs via 30+ APIs (FedEx/DHL) using Python/Node.js, reducing manual tracking.
+                  Enhanced microservices with JWT authentication and session management, improving API security for shipment tracking. 
                     </li>
                     <li>
-                        Optimized 15 DB queries and Dockerized app, cutting processing time by 30% with zero downtime on AWS ECS.
+                  Implemented Redis caching and optimized SQL queries using indexing, reducing data retrieval time by 30%.
                     </li>
 
                   </ul>

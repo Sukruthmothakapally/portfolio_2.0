@@ -15,24 +15,35 @@ function Home2() {
       <Container>
         <Row>
         <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
-            </h1>
-            <p className="home-about-body">
-            I'm an experienced software engineer, with a Masters in <span className="purple"><em>Computer Software Engineering</em></span> from Northeastern University.
-            <br />
-            <br />
-            Most recently, I worked at a <span className="purple"><em>Gen-AI startup</em></span> as part of the founding engineering team, where I built end-to-end <span className="purple"><em>SAAS</em></span> products and <span className="purple"><em>AI-driven solutions</em></span>.
-            <br />
-            <br />
-            My primary focus is on backend development using <span className="purple"><em>microservices</em></span>, with expertise in <span className="purple"><em>Python</em></span>, <span className="purple"><em>Java</em></span>, and <span className="purple"><em>JavaScript</em></span> frameworks.
-            <br />
-            <br />
-            In the <span className="purple"><em>AI</em></span> space, I have experience developing <span className="purple"><em>multi-agent</em></span> systems, designing <span className="purple"><em>RAG</em></span>-based architectures, fine-tuning <span className="purple"><em>LLMs</em></span>, and working on prompt engineering.
-            <br />
-            <br />
-            I've also built few scalable <span className="purple"><em>AWS</em></span> native <span className="purple"><em>full-stack apps</em></span> leveraging <span className="purple"><em>CI/CD</em></span> pipelines, and for the frontend, I mainly work with <span className="purple"><em>React</em></span>, <span className="purple"><em>JavaScript</em></span>, and <span className="purple"><em>TypeScript</em></span>.
-          </p>
+        <h1 style={{ fontSize: "2.6em" }}>
+          LET ME <span className="purple"> INTRODUCE </span> MYSELF
+        </h1>
+        <p className="home-about-body">
+          <ul>
+            <li>
+              I'm an experienced software engineer with a Master's in <span className="purple"><em>Computer Software Engineering</em></span> from Northeastern University.
+            </li>
+            <li>
+              I've worked at 2 AI startups as part of the founding team, taking AI-driven <span className="purple"><em>SAAS</em></span> products from <span className="purple"><em>0→1</em></span> and helping drive revenue.
+            </li>
+            <li>
+              I thrive in <span className="purple"><em>multi-hat responsibilities</em></span>, working directly with leadership, including the CEO - to turn ideas into solid <span className="purple"><em>MVPs</em></span>.
+            </li>
+            <li>
+              My core strength is backend development with <span className="purple"><em>microservices</em></span>, using <span className="purple"><em>Python</em></span> and <span className="purple"><em>Java</em></span> frameworks.
+            </li>
+            <li>
+             In the <span className="purple"><em>AI</em></span> space, I've built <span className="purple"><em>multi-agent systems</em></span>, designed <span className="purple"><em>RAG-based architectures</em></span>, fine-tuned <span className="purple"><em>LLMs</em></span>, worked on prompt engineering, and used frameworks like <span className="purple"><em>LangChain</em></span>, LangGraph, and Autogen. 
+            </li>
+            <li>
+              I've built scalable <span className="purple"><em>AWS & GCP native</em></span> full-stack apps, set up <span className="purple"><em>CI/CD pipelines</em></span>, and handled data engineering workflows to keep things running smoothly.
+            </li>
+            <li>
+              For the frontend, I sometimes work with <span className="purple"><em>React</em></span>, <span className="purple"><em>JavaScript</em></span>, and <span className="purple"><em>TypeScript</em></span>. Not my main focus, but I can get things up and running when needed.
+            </li>
+          </ul>
+        </p>
+
 
           </Col>
 
