@@ -56,12 +56,15 @@ function About() {
   <em style={{ fontSize: "1.2em", fontWeight: "bold" }}>  
     Feb 2025 – Present  
   </em>  
+  <span style={{ fontSize: "1em" }}>  
+  (Python, LLMs, FastAPI, MongoDB, Azure, Airflow, Playwright, Cursor) 
+</span>   
   <ul className="role-description">  
     <li>  
     Founding engineer owning end-to-end development of 3 microservices with multi-agent system for an AI-driven MVP.  
     </li>  
     <li>  
-    Contributing to a data orchestration pipeline (Graph/Vector DB), streamlining Protein synthesis and predictive analytics.   
+    Contributing to a data orchestration pipeline (Graph/Vector DB/Airflow), streamlining Protein synthesis and predictive analytics.   
     </li>
   </ul>  
 </li>  
@@ -97,29 +100,32 @@ function About() {
                   <em style={{ fontSize: "1.2em", fontWeight: "bold" }}>
                     Jan 2024 – Aug 2024
                   </em>
+                  <span style={{ fontSize: "1em" }}>  
+                  (Python, LLMs, RAG, FastAPI, AWS, Postgres, Node.js, OpenAI) 
+                </span> 
                   <ul className="role-description">
                   <li>
-                  As part of founding team, collaborated directly with CEO in a 0→1 initiative to design and develop 4 microservices for the MVP using FastAPI/Node.js/AWS Lambda/Kafka/Docker, accelerating time-to-market by a quarter.  
+                  As part of founding team, collaborated directly with CEO in a 0→1 initiative to design and develop 4 core microservices for the MVP using FastAPI/Node.js/AWS Lambda/Kafka/Docker, accelerating time-to-market by a quarter.  
                     </li>
                     <br />
                     <li>
-                    Contributed to engineering a multi-agent AI system (RAG/LangChain/Selenium) for automating and personalizing email generation, lead acquisition, and campaign creation, driving 10+ customers and increasing sales conversions. 
+                    Contributed to building a multi-agent AI system (OpenAI/fine-tuning/RAG/LangChain/Selenium) for automating and hyper personalizing email generation, lead, intent, and campaign creation, boosting sales conversions and acquiring 10+ customers.
                     </li>
                     <br />
                     <li>
-                    Developed an AI chatbot (RAG/Cache/FAISS/WebSocket) serving as a Customer Onboarding Assistant, delivering real-time sales insights and slashing setup time from hours to minutes. 
+                    Developed an AI chatbot (RAG/Cache/FAISS/WebSocket) serving as a Customer Onboarding Assistant, delivering real-time sales insights and slashing onboarding time from hours to minutes. 
                     </li>
                     <br />
                     <li>
-                    led agile migration from monolith to microservices, integrating AWS services with CI/CD pipelines via GitHub Actions/Terraform, streamlining weekly release cycles. 
+                    led agile migration from monolith to microservices backend, integrating AWS services with CI/CD pipelines via GitHub Actions/Terraform, streamlining weekly release cycles. 
                     </li>
                     <br />
                     <li>
-                    Designed 8 database schemas for sales-marketing workflows and led development of a weekly Airflow DAG that automated ETL for 50k+ leads from 10+ sources using web scraping and data ingestion, driving targeted customer personalization. 
+                    Designed 8 database schemas for sales-marketing workflows and contributed to the development of a weekly Airflow DAG that automated ETL for 50k+ leads from 10+ sources using web scraping and data ingestion, driving targeted customer personalization. 
                     </li>
                     <br />
                     <li>
-                    Developed 2 dashboards using React/Next.js/TypeScript, implemented NextAuth.js with users RBAC, integrated Stripe, third-party APIs, and WebSocket alerts, improving security and user experience.
+                    Developed 2 dashboards using React/Next.js/TypeScript, implemented user Auth with RBAC, integrated Stripe payments, third-party APIs, and WebSocket alerts, improving security and user experience. 
                     </li>
                     
                   </ul>
@@ -156,6 +162,9 @@ function About() {
                   <em style={{ fontSize: "1.2em", fontWeight: "bold" }}>
                     Jan 2023 – Dec 2024
                   </em>
+                  <span style={{ fontSize: "1em" }}>  
+                  (Python, Java, ML, Object Oriented Programming) 
+                </span> 
                   <ul className="role-description">
                     <li>
                     Co-designed and evaluated assignments for 40+ students in Data Structures & Algorithms and Data Science courses, covering Python, Java, Machine Learning, Agile methodologies, SDLC, and Object-Oriented Programming.
@@ -197,6 +206,9 @@ function About() {
                   <em style={{ fontSize: "1.2em", fontWeight: "bold" }}>
                     Feb 2020 – June 2022
                   </em>
+                  <span style={{ fontSize: "1em" }}>  
+                  (Python, C++, MySQL, CI/CD, Automation, Testing | JavaScript, MERN, Agile) 
+                </span> 
                   <ul className="role-description">
                   <li>
                     Automated Intel GPU/SSD driver deployments via C++ CLI tools and Ansible on Linux, configuring 10K+ enterprise systems.
@@ -260,6 +272,9 @@ function About() {
                   <em style={{ fontSize: "1.2em", fontWeight: "bold" }}>
                     July 2018 – Aug 2018
                   </em>
+                  <span style={{ fontSize: "1em" }}>  
+                  (Python, Node.js, REST, AWS, Docker)
+                </span> 
                   <ul className="role-description">
                   <li>
                   Enhanced microservices with JWT authentication and session management, improving API security for shipment tracking. 
