@@ -56,6 +56,7 @@ function About() {
   <em style={{ fontSize: "1.2em", fontWeight: "bold" }}>  
     Feb 2025 – Present  
   </em>  
+  <br />
   <span style={{ fontSize: "1em" }}>  
   (Python, LLMs, FastAPI, MongoDB, Azure, Airflow, Playwright, Cursor) 
 </span>   
@@ -100,6 +101,7 @@ function About() {
                   <em style={{ fontSize: "1.2em", fontWeight: "bold" }}>
                     Jan 2024 – Aug 2024
                   </em>
+                  <br />
                   <span style={{ fontSize: "1em" }}>  
                   (Python, LLMs, RAG, FastAPI, AWS, Postgres, Node.js, OpenAI) 
                 </span> 
@@ -162,6 +164,7 @@ function About() {
                   <em style={{ fontSize: "1.2em", fontWeight: "bold" }}>
                     Jan 2023 – Dec 2024
                   </em>
+                  <br />
                   <span style={{ fontSize: "1em" }}>  
                   (Python, Java, ML, Object Oriented Programming) 
                 </span> 
@@ -206,6 +209,7 @@ function About() {
                   <em style={{ fontSize: "1.2em", fontWeight: "bold" }}>
                     Feb 2020 – June 2022
                   </em>
+                  <br />
                   <span style={{ fontSize: "1em" }}>  
                   (Python, C++, MySQL, CI/CD, Automation, Testing | JavaScript, MERN, Agile) 
                 </span> 
@@ -272,6 +276,7 @@ function About() {
                   <em style={{ fontSize: "1.2em", fontWeight: "bold" }}>
                     July 2018 – Aug 2018
                   </em>
+                  <br />
                   <span style={{ fontSize: "1em" }}>  
                   (Python, Node.js, REST, AWS, Docker)
                 </span> 
