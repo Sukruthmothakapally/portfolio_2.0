@@ -57,7 +57,7 @@ function About() {
     Feb 2025 – Present  
   </em>  
   <br />
-  <span style={{ fontSize: "1em" }}>  
+  <span style={{ fontSize: "1em", fontWeight: "bold", fontStyle: "italic" }}>  
   (Python, LLMs, FastAPI, MongoDB, Azure, Airflow, Playwright, Cursor) 
 </span>   
   <ul className="role-description">  
@@ -102,7 +102,7 @@ function About() {
                     Jan 2024 – Aug 2024
                   </em>
                   <br />
-                  <span style={{ fontSize: "1em" }}>  
+                  <span style={{ fontSize: "1em", fontWeight: "bold", fontStyle: "italic" }}>   
                   (Python, LLMs, RAG, FastAPI, AWS, Postgres, Node.js, OpenAI) 
                 </span> 
                   <ul className="role-description">
@@ -165,7 +165,7 @@ function About() {
                     Jan 2023 – Dec 2024
                   </em>
                   <br />
-                  <span style={{ fontSize: "1em" }}>  
+                  <span style={{ fontSize: "1em", fontWeight: "bold", fontStyle: "italic" }}>  
                   (Python, Java, ML, Object Oriented Programming) 
                 </span> 
                   <ul className="role-description">
@@ -210,7 +210,7 @@ function About() {
                     Feb 2020 – June 2022
                   </em>
                   <br />
-                  <span style={{ fontSize: "1em" }}>  
+                  <span style={{ fontSize: "1em", fontWeight: "bold", fontStyle: "italic" }}> 
                   (Python, C++, MySQL, CI/CD, Automation, Testing | JavaScript, MERN, Agile) 
                 </span> 
                   <ul className="role-description">
@@ -277,7 +277,7 @@ function About() {
                     July 2018 – Aug 2018
                   </em>
                   <br />
-                  <span style={{ fontSize: "1em" }}>  
+                  <span style={{ fontSize: "1em", fontWeight: "bold", fontStyle: "italic" }}>  
                   (Python, Node.js, REST, AWS, Docker)
                 </span> 
                   <ul className="role-description">
