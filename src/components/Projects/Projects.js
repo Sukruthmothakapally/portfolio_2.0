@@ -67,7 +67,7 @@ function Projects() {
 
   const projects = [
     {
-  imgPath: pic64, // Replace with relevant thumbnail image
+  imgPath: pic64,
   title: (
     <span style={{ color: '#9b59b6', fontWeight: 'bold', fontSize: '24px' }}>
       Multi-Agent and Multi-Modal AI Assistant on WhatsApp
@@ -78,8 +78,8 @@ function Projects() {
       <strong>Tech Stack:</strong>
       <ul>
         <li><strong>Backend & Agents:</strong> FastAPI, LangGraph, LangChain, Python, Qdrant, SQLite</li>
-        <li><strong>AI Models:</strong> OpenAI GPT-4, Whisper, ElevenLabs, LLaVA, Groq, Together AI</li>
-        <li><strong>Integrations:</strong> WhatsApp Business API, Google Workspace APIs</li>
+        <li><strong>AI Models:</strong> GPT-4, Whisper, ElevenLabs, LLaVA, Groq, Together AI</li>
+        <li><strong>Integrations:</strong> WhatsApp Business API, Gmail, Google Calendar & Tasks</li>
         <li><strong>DevOps & Infra:</strong> Docker, Prefect, Cron, Ngrok, Chainlit (Web UI)</li>
       </ul>
       <div style={{ marginTop: "20px", textAlign: "center" }}>
@@ -129,46 +129,52 @@ function Projects() {
         Project Overview
       </h5>
       <p>
-        Production-ready multi-modal AI assistant built on a LangGraph-based multi-agent system. Enables asynchronous workflows via WhatsApp, supporting text, voice, and image inputs. Designed for seamless interaction with Google Workspace and real-time news APIs.
+        A production-grade, asynchronous multi-agent AI assistant fully integrated with WhatsApp.
+        The system uses <strong>LangGraph</strong> to define agent workflows as a directed graph, enabling modular, concurrent, and state-aware processing for real-time tasks.
+        Supports text, voice, and image inputs with seamless automation of Gmail, Calendar, and Tasks.
+      </p>
+      <p>
+        Scalable and fault-tolerant by design, the assistant handles full interaction cycles in WhatsApp—from daily briefings to image transcription—while <strong>Chainlit</strong> provides a web UI for testing/debugging.
       </p>
 
       <h5 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "10px" }}>
         Key Capabilities
       </h5>
       <ul>
-        <li><strong>Multi-Modal Input:</strong> Text, voice (STT/TTS), and image (OCR & generation)</li>
-        <li><strong>Agent Architecture:</strong> LangGraph-powered nodes handling routing, task management, memory, and interaction</li>
-        <li><strong>Google API Integration:</strong> Email summaries, calendar updates, and task tracking via conversational UI</li>
-        <li><strong>Daily Briefings:</strong> Automated summaries delivered via WhatsApp every morning</li>
-        <li><strong>Real-Time Info Retrieval:</strong> News, scheduling, and reminders through memory-aware agents</li>
-        <li><strong>Web UI:</strong> Desktop interface via Chainlit for testing and debugging</li>
+        <li><strong>LangGraph-Driven Flow:</strong> Async execution with agent nodes for query classification, memory, media processing, and task routing.</li>
+        <li><strong>Multi-Agent Intelligence:</strong> Dedicated agents for voice (STT/TTS), image (OCR/Gen), search, scheduling, and RAG-powered memory.</li>
+        <li><strong>WhatsApp-Centric UX:</strong> All actions—email, calendar, tasks, summaries, news—done natively via WhatsApp.</li>
+        <li><strong>Multi-Modal Support:</strong> Handles voice commands, image prompts, and text queries in real time.</li>
+        <li><strong>Automated Daily Updates:</strong> Morning digest of emails, events, and tasks triggered by scheduled workflows.</li>
+        <li><strong>Chainlit Web UI:</strong> Browser-based interface used for debugging and showcasing async flows.</li>
       </ul>
 
       <div style={{ marginTop: "20px" }}>
         <img
           src={pic61}
-          alt=""
-          style={{ width: "100%", borderRadius: "8px", marginBottom: "15px" }}
+          alt="Architecture Overview"
+          style={{ width: "100%", height: "auto", borderRadius: "8px", marginBottom: "15px" }}
         />
         <img
           src={pic62}
-          alt=""
-          style={{ width: "100%", borderRadius: "8px", marginBottom: "15px" }}
+          alt="LangGraph Flow"
+          style={{ width: "100%", height: "auto", borderRadius: "8px", marginBottom: "15px" }}
         />
         <img
           src={pic63}
-          alt=""
-          style={{ width: "100%", borderRadius: "8px", marginBottom: "15px" }}
+          alt="WhatsApp Interaction"
+          style={{ width: "100%", height: "auto", borderRadius: "8px", marginBottom: "15px" }}
         />
         <img
           src={pic64}
-          alt=""
-          style={{ width: "100%", borderRadius: "8px", marginBottom: "15px" }}
+          alt="Chainlit Debug UI"
+          style={{ width: "100%", height: "auto", borderRadius: "8px", marginBottom: "15px" }}
         />
       </div>
     </div>
   ),
 },
+
 
 
     {
