@@ -50,6 +50,11 @@ import pic13 from "../../Assets/Projects/pic13.png";
 import pic11 from "../../Assets/Projects/pic11.png";
 import pic60 from "../../Assets/Projects/pic60.png";
 
+import pic61 from "../../Assets/Projects/fastapi.png";
+import pic62 from "../../Assets/Projects/langgraph.png";
+import pic63 from "../../Assets/Projects/prefect.png";
+import pic64 from "../../Assets/Projects/whatsapp_multi_agent_ai_assistant.png";
+
 function Projects() {
   const [show, setShow] = useState(false);
   const [selectedProject, setSelectedProject] = useState({});
@@ -61,6 +66,111 @@ function Projects() {
   };
 
   const projects = [
+    {
+  imgPath: pic64, // Replace with relevant thumbnail image
+  title: (
+    <span style={{ color: '#9b59b6', fontWeight: 'bold', fontSize: '24px' }}>
+      Multi-Agent and Multi-Modal AI Assistant on WhatsApp
+    </span>
+  ),
+  description: (
+    <>
+      <strong>Tech Stack:</strong>
+      <ul>
+        <li><strong>Backend & Agents:</strong> FastAPI, LangGraph, LangChain, Python, Qdrant, SQLite</li>
+        <li><strong>AI Models:</strong> OpenAI GPT-4, Whisper, ElevenLabs, LLaVA, Groq, Together AI</li>
+        <li><strong>Integrations:</strong> WhatsApp Business API, Google Workspace APIs</li>
+        <li><strong>DevOps & Infra:</strong> Docker, Prefect, Cron, Ngrok, Chainlit (Web UI)</li>
+      </ul>
+      <div style={{ marginTop: "20px", textAlign: "center" }}>
+        <a
+          href="https://github.com/Sukruthmothakapally/Whatsapp-multiagent-assistant"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            color: "#9b59b6",
+            fontWeight: "bold",
+            fontSize: "24px",
+            textDecoration: "underline",
+            marginRight: "15px",
+          }}
+        >
+          GitHub
+        </a>
+        <span
+          style={{
+            fontWeight: "bold",
+            fontSize: "24px",
+            color: "black",
+            marginRight: "15px",
+          }}
+        >
+          |
+        </span>
+        <a
+          href="https://youtu.be/AtpaKgERbXw?si=w6gF0SVKD6Sn-4DE"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            color: "#9b59b6",
+            fontWeight: "bold",
+            fontSize: "24px",
+            textDecoration: "underline",
+          }}
+        >
+          Demo
+        </a>
+      </div>
+    </>
+  ),
+  details: (
+    <div>
+      <h5 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "10px" }}>
+        Project Overview
+      </h5>
+      <p>
+        Production-ready multi-modal AI assistant built on a LangGraph-based multi-agent system. Enables asynchronous workflows via WhatsApp, supporting text, voice, and image inputs. Designed for seamless interaction with Google Workspace and real-time news APIs.
+      </p>
+
+      <h5 style={{ fontSize: "1.2rem", fontWeight: "bold", marginBottom: "10px" }}>
+        Key Capabilities
+      </h5>
+      <ul>
+        <li><strong>Multi-Modal Input:</strong> Text, voice (STT/TTS), and image (OCR & generation)</li>
+        <li><strong>Agent Architecture:</strong> LangGraph-powered nodes handling routing, task management, memory, and interaction</li>
+        <li><strong>Google API Integration:</strong> Email summaries, calendar updates, and task tracking via conversational UI</li>
+        <li><strong>Daily Briefings:</strong> Automated summaries delivered via WhatsApp every morning</li>
+        <li><strong>Real-Time Info Retrieval:</strong> News, scheduling, and reminders through memory-aware agents</li>
+        <li><strong>Web UI:</strong> Desktop interface via Chainlit for testing and debugging</li>
+      </ul>
+
+      <div style={{ marginTop: "20px" }}>
+        <img
+          src={pic61}
+          alt=""
+          style={{ width: "100%", borderRadius: "8px", marginBottom: "15px" }}
+        />
+        <img
+          src={pic62}
+          alt=""
+          style={{ width: "100%", borderRadius: "8px", marginBottom: "15px" }}
+        />
+        <img
+          src={pic63}
+          alt=""
+          style={{ width: "100%", borderRadius: "8px", marginBottom: "15px" }}
+        />
+        <img
+          src={pic64}
+          alt=""
+          style={{ width: "100%", borderRadius: "8px", marginBottom: "15px" }}
+        />
+      </div>
+    </div>
+  ),
+},
+
+
     {
       imgPath: chatify,
       title: (
