@@ -151,23 +151,23 @@ function Projects() {
 
       <div style={{ marginTop: "20px" }}>
         <img
-          src={pic61}
-          alt="Architecture Overview"
+          src={pic64}
+          alt=""
           style={{ width: "100%", height: "auto", borderRadius: "8px", marginBottom: "15px" }}
         />
         <img
           src={pic62}
-          alt="LangGraph Flow"
+          alt=""
           style={{ width: "100%", height: "auto", borderRadius: "8px", marginBottom: "15px" }}
         />
         <img
           src={pic63}
-          alt="WhatsApp Interaction"
+          alt=""
           style={{ width: "100%", height: "auto", borderRadius: "8px", marginBottom: "15px" }}
         />
         <img
-          src={pic64}
-          alt="Chainlit Debug UI"
+          src={pic61}
+          alt=""
           style={{ width: "100%", height: "auto", borderRadius: "8px", marginBottom: "15px" }}
         />
       </div>
