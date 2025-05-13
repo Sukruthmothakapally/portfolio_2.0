@@ -67,7 +67,7 @@ function Projects() {
 
   const projects = [
     {
-  imgPath: pic64,
+  imgPath: pic62,
   title: (
     <span style={{ color: '#9b59b6', fontWeight: 'bold', fontSize: '24px' }}>
       Multi-Agent and Multi-Modal AI Assistant on WhatsApp
@@ -78,7 +78,7 @@ function Projects() {
       <strong>Tech Stack:</strong>
       <ul>
         <li><strong>Backend & Agents:</strong> FastAPI, LangGraph, LangChain, Python, Qdrant, SQLite</li>
-        <li><strong>AI Models:</strong> GPT-4, Whisper, ElevenLabs, LLaVA, Groq, Together AI</li>
+        <li><strong>AI Models:</strong> GPT-4, Whisper, ElevenLabs, Llama, Groq, Together AI</li>
         <li><strong>Integrations:</strong> WhatsApp Business API, Gmail, Google Calendar & Tasks</li>
         <li><strong>DevOps & Infra:</strong> Docker, Prefect, Cron, Ngrok, Chainlit (Web UI)</li>
       </ul>
