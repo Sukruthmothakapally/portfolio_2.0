@@ -62,10 +62,12 @@ function About() {
 </span>   
   <ul className="role-description">  
     <li>  
-    Founding engineer owning end-to-end development of 3 microservices with multi-agent system for an AI-driven MVP.  
+    Founding engineer developing and deploying high throughput microservices, RESTful APIs, and distributed systems, 
+integrating a multi-agent AI backend for a critical biotech MVP, ensuring robust system reliability.  
     </li>  
     <li>  
-    Contributing to a data orchestration pipeline (Graph/Vector DB/Airflow), streamlining Protein synthesis and predictive analytics.   
+    Designed and implemented scalable data ingestion pipelines and backend orchestration using AI/ML models, feature 
+engineering, and automated workflows to enable efficient protein data processing.   
     </li>
   </ul>  
 </li>  
@@ -107,15 +109,18 @@ function About() {
                 </span> 
                   <ul className="role-description">
                   <li>
-                  As part of founding team, collaborated directly with CEO in a 0→1 initiative to design and develop 4 core microservices for the MVP using FastAPI/Node.js/AWS Lambda/Kafka/Docker, accelerating time-to-market by a quarter.  
+                  Founding engineer of a fast-paced startup, collaborated closely with CEO in a 0→1 initiative to develop core SaaS backend 
+services, leveraging FastAPI, AWS Lambda, Kafka, and container orchestration to drive scalable cloud-native solutions.  
                     </li>
                     <br />
                     <li>
-                    Contributed to building a multi-agent AI system (OpenAI/fine-tuning/RAG/LangChain/Selenium) for automating and hyper personalizing email generation, lead, intent, and campaign creation, boosting sales conversions and acquiring 10+ customers.
+                    Engineered multi-agent AI workflows leveraging RAG pipelines, fine-tuned LLMs, LangGraph, and Selenium to automate and 
+hyper-personalize email generation, lead processing, and campaign orchestration, enabling a natural language interface (NLI).
                     </li>
                     <br />
                     <li>
-                    Developed an AI chatbot (RAG/Cache/FAISS/WebSocket) serving as a Customer Onboarding Assistant, delivering real-time sales insights and slashing onboarding time from hours to minutes. 
+                    Developed an AI chatbot with Tool Calling (RAG/Cache/FAISS/WebSocket) serving as an automated Customer 
+Onboarding Assistant, delivering real-time sales insights and slashing onboarding time from hours to minutes. 
                     </li>
                     <br />
                     <li>
@@ -123,11 +128,12 @@ function About() {
                     </li>
                     <br />
                     <li>
-                    Designed 8 database schemas for sales-marketing workflows and contributed to the development of a weekly Airflow DAG that automated ETL for 50k+ leads from 10+ sources using web scraping and data ingestion, driving targeted customer personalization. 
+                    Led design and optimization of relational data models for sales-marketing workflows and contributed to the development of a weekly Airflow DAG that automated ETL for 50k+ leads from 10+ sources using web scraping and data ingestion, driving targeted customer personalization. 
                     </li>
                     <br />
                     <li>
-                    Developed 2 dashboards using React/Next.js/TypeScript, implemented user Auth with RBAC, integrated Stripe payments, third-party APIs, and WebSocket alerts, improving security and user experience. 
+                    Developed secure, user-centric React/Next.js dashboards implementing Auth with RBAC, payment gateway integration, 
+third-party APIs, and WebSocket-based real-time communication, enhancing platform reliability and user experience. 
                     </li>
                     
                   </ul>
