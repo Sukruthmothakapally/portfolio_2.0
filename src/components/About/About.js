@@ -65,6 +65,7 @@ function About() {
     Founding engineer developing and deploying high throughput microservices, RESTful APIs, and distributed systems, 
 integrating a multi-agent AI backend for a critical biotech MVP, ensuring robust system reliability.  
     </li>  
+    <br />
     <li>  
     Designed and implemented scalable data ingestion pipelines and backend orchestration using AI/ML models, feature 
 engineering, and automated workflows to enable efficient protein data processing.   
