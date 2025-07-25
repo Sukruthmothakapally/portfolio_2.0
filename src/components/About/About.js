@@ -50,7 +50,7 @@ function About() {
       fontWeight: "bold",  
     }}  
   >  
-    AI Software Engineer  
+    AI Software Engineer (Intern)  
   </span>  
   <br />  
   <em style={{ fontSize: "1.2em", fontWeight: "bold" }}>  
@@ -63,7 +63,7 @@ function About() {
   <ul className="role-description">  
     <li>  
     Founding engineer developing and deploying high throughput microservices, RESTful APIs, and distributed systems, 
-integrating a multi-agent AI backend for a critical biotech MVP, ensuring robust system reliability.  
+integrating a multi-agent AI backend for a critical MVP at a biotech startup, ensuring robust system reliability.  
     </li>  
     <br />
     <li>  
@@ -98,7 +98,7 @@ engineering, and automated workflows to enable efficient protein data processing
                       fontWeight: "bold",
                     }}
                   >
-                    AI Software Engineer
+                    AI Software Engineer (Co-op)
                   </span>
                   <br />
                   <em style={{ fontSize: "1.2em", fontWeight: "bold" }}>
